@@ -18,6 +18,11 @@ public class Pbo {
         Latihan lth = new Latihan("123", "ANNA", "AKUTANSI");
         lth.setNama("Diana");
         System.out.println("NAMA :" + lth.getNama());
+        
+        
+        
+        hamid h = new hamid("12345", "Hamid", "SI", "Semi");
+        System.out.println("Nama : " + h.getNama() + "\nNIM : " + h.getNim() + "\nProdi : " + h.getProdi() + "\nAlamat : " + h.getAlamat());
     }
     
 }
